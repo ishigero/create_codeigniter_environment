@@ -28,6 +28,8 @@ mv ~/index.php public
 mv ~/.htaccess public
 mv ~/config.php application/config
 mv ~/database.php application/config
+rm -fr ~/work/.git
+rm ~/init.sql
 
 
 
